@@ -1,0 +1,15 @@
+*.pyc
+__pycache__/
+.env
+.idea/
+predictions_nyu/
+predictions_kitti/
+prediction_syn/
+prediction_syn_mci_no_rot/
+prediction_syn_mci_norot2rot_bytheta_1004/
+prediction_syn_mci_rot_1004/
+prediction_syn_mci_rot/
+wandb/
+checkpoints/
+pretrained/
+

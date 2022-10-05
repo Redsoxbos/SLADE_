@@ -1,0 +1,16 @@
+--data_path /root/share/KITTI360/data_2d_raw 
+--gt_path /root/share/KITTI360/data_distance_map 
+--filenames_file ./train_test_inputs/kitti360_test_files_with_gt.txt
+--input_height 1400 
+--input_width 1400 
+--max_depth 40
+--min_depth 0.1
+
+--checkpoint_path ./checkpoints/Adabins_kitti360_best.pt 
+--data_path_eval /root/share/KITTI360/data_2d_raw
+--gt_path_eval /root/share/KITTI360/data_distance_map 
+--filenames_file_eval ./train_test_inputs/kitti360_eval_files_with_gt.txt
+--min_depth_eval 0.1
+--max_depth_eval 40
+--dataset kitti360
+--save_dir prediction_kitti360

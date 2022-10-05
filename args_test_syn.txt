@@ -1,0 +1,16 @@
+--data_path /root/share/SynWoodScape_V0.1.1/SynWoodScape_V0.1.0/rgb_images/
+--gt_path /root/share/SynWoodScape_V0.1.1/SynWoodScape_V0.1.0/depth_maps/mci/no_rot/xz_dist/
+--filenames_file ./train_test_inputs/syn_test_mci_files_with_gt.txt
+--input_height 966
+--input_width 1280
+--max_depth 1000
+--min_depth 0.000001
+
+--checkpoint_path ./checkpoints/UnetAdaptiveBins_mci_norot2rot_bytheta_04-Oct_16-30-nodebs4-tep25-lr0.000357-wd0.1-deab2740-613c-4cea-9c30-4ba66723e29f_best.pt 
+--data_path_eval /root/share/SynWoodScape_V0.1.1/SynWoodScape_V0.1.0/rgb_images/
+--gt_path_eval /root/share/SynWoodScape_V0.1.1/SynWoodScape_V0.1.0/depth_maps/mci/no_rot/xz_dist/
+--filenames_file_eval ./train_test_inputs/syn_test_mci_files_with_gt.txt
+--min_depth_eval 0.000001
+--max_depth_eval 40
+--dataset synwoodscape
+--save_dir UnetAdaptiveBins_fisheye_mci_from_distance_lefttest
